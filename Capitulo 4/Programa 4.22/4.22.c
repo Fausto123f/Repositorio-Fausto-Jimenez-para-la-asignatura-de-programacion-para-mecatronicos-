@@ -4,51 +4,31 @@
 int z, y; /* Variables globales. */
 int F1(float);
 void F2(float, int *); /* Prototipos de funciones. */
+#include <stdio.h>
+
+/* Funciones y parámetros. */
+int a, b, c, d;
+int pal(int, int); /* Prototipo de función. */
 
 void main(void)
 {
-    int w;
-    float x;
-    z = 5;
-    y = 7;
-    w = 2;
-    x = (float)y / z;
-    printf("\nPrograma Principal: %d %d %.2f %d", z, y, x, w);
-    F2(x, &w);
-    printf("\nPrograma Principal: %d %d %.2f %d", z, y, x, w);
+    a = 2;
+    c = 3;
+    d = 5;
+    a = pal(c, d);
+    printf("\n%d %d %d %d", a, b, c, d);
+    b = 4;
+    b = pal(b, a);
+    printf("\n%d %d %d %d", a, b, c, d);
 }
 
-int F1(float x)
+int pal(int x, int y)
 {
-    int k;
-    if (x != 0)
-    {
-        k = z - y;
-        x++;
-    }
-    else
-        k = z + y;
-    printf("\nF1: %d %d %.2f %d", z, y, x, k);
-    return k;
-}
-
-void F2(float t, int *r)
-{
-    int y = 5;
-    z = 0;
-    printf("\nF2: %d %d %.2f %d", z, y, t, *r);
-    if (z == 0)
-    {
-        z = (*r) * 2;
-        t = (float)z / 3;
-        printf("\nIngresa el valor: ");
-        scanf("%d", r); /* El usuario debe ingresar el valor 6 */
-        printf("\nF2: %d %d %.2f %d", z, y, t, *r);
-    }
-    else
-    {
-        z = (*r) * 2;
-        printf("\nF2: %d %d %.2f %d", z, y, t, *r);
-    }
-    *r = F1(t);
+    int c;
+    b = x * y;
+    c = b + y;
+    x++;
+    y = y * (y + 1);
+    printf("\n%d %d %d %d", b, c, x, y);
+    return x;
 }
