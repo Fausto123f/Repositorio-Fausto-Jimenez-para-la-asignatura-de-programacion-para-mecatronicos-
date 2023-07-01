@@ -27,19 +27,12 @@ void agregar_estudiante(struct estudiante *estudiantes, int *num_estudiantes) {
   (*num_estudiantes)++;
 }
 
-void guardar_datos(struct estudiante *estudiantes, int num_estudiantes) {
-  FILE *file = fopen("estudiantes.txt", "w");
-  if (file == NULL) {
-    printf("No se pudo crear el archivo.\n");
-    return;
-  }
-
+void imprimir_estudiantes(struct estudiante *estudiantes, int num_estudiantes) {
+  printf("ID\tMatrícula\tNombre\tCarrera\n");
   for (int i = 0; i < num_estudiantes; i++) {
-    fprintf(file, "%d\t%d\t%s\t%s\n", estudiantes[i].id, estudiantes[i].matricula,
-            estudiantes[i].nombre, estudiantes[i].carrera);
+    printf("%d\t%d\t%s\t%s\n", estudiantes[i].id, estudiantes[i].matricula,
+           estudiantes[i].nombre, estudiantes[i].carrera);
   }
-
-  fclose(file);
 }
 
 int main() {
@@ -49,19 +42,25 @@ int main() {
   estudiantes = (struct estudiante *)malloc(sizeof(struct estudiante) * 100);
 
   while (1) {
+    imprimir_estudiantes(estudiantes, num_estudiantes);
+
     printf("1. Agregar estudiante\n2. Salir\n");
     int opcion;
     scanf("%d", &opcion);
 
     if (opcion == 1) {
       agregar_estudiante(estudiantes, &num_estudiantes);
-      guardar_datos(estudiantes, num_estudiantes);
     } else {
-      return 0;
+      break;
     }
   }
 
-  free(estudiantes);
+  FILE *fp = fopen("estudiantes.txt", "w");
+  for (int i = 0; i < num_estudiantes; i++) {
+    fprintf(fp, "%d\t%d\t%s\t%s\n", estudiantes[i].id, estudiantes[i].matricula,
+            estudiantes[i].nombre, estudiantes[i].carrera);
+  }
+  fclose(fp);
 
   return 0;
 }
