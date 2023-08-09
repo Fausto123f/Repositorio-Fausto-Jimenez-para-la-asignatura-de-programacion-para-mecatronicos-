@@ -1,0 +1,14 @@
+C:\Users\Lenovo\Desktop\Risxpert.0\Risxpert\bin\Debug\Risxpert.exe.config
+C:\Users\Lenovo\Desktop\Risxpert.0\Risxpert\bin\Debug\Risxpert.exe
+C:\Users\Lenovo\Desktop\Risxpert.0\Risxpert\bin\Debug\Risxpert.pdb
+C:\Users\Lenovo\Desktop\Risxpert.0\Risxpert\obj\Debug\Risxpert.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\Risxpert.0\Risxpert\obj\Debug\Risxpert.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lenovo\Desktop\Risxpert.0\Risxpert\obj\Debug\Risxpert.Risxpert0.resources
+C:\Users\Lenovo\Desktop\Risxpert.0\Risxpert\obj\Debug\Risxpert.Properties.Resources.resources
+C:\Users\Lenovo\Desktop\Risxpert.0\Risxpert\obj\Debug\Risxpert.csproj.GenerateResource.cache
+C:\Users\Lenovo\Desktop\Risxpert.0\Risxpert\obj\Debug\Risxpert.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\Risxpert.0\Risxpert\obj\Debug\Risxpert.exe
+C:\Users\Lenovo\Desktop\Risxpert.0\Risxpert\obj\Debug\Risxpert.pdb
+C:\Users\Lenovo\Desktop\Risxpert.0\Risxpert\bin\Debug\LiteDB.dll
+C:\Users\Lenovo\Desktop\Risxpert.0\Risxpert\bin\Debug\LiteDB.xml
+C:\Users\Lenovo\Desktop\Risxpert.0\Risxpert\obj\Debug\Risxpert.csproj.CopyComplete
