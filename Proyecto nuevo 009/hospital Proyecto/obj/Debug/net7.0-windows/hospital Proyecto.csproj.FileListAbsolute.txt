@@ -1,0 +1,18 @@
+C:\Users\Lenovo\Desktop\Proyecto nuevo 009\hospital Proyecto\obj\Debug\net7.0-windows\hospital Proyecto.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\Proyecto nuevo 009\hospital Proyecto\obj\Debug\net7.0-windows\hospital_Proyecto.Form1.resources
+C:\Users\Lenovo\Desktop\Proyecto nuevo 009\hospital Proyecto\obj\Debug\net7.0-windows\hospital Proyecto.csproj.GenerateResource.cache
+C:\Users\Lenovo\Desktop\Proyecto nuevo 009\hospital Proyecto\obj\Debug\net7.0-windows\hospital Proyecto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\Desktop\Proyecto nuevo 009\hospital Proyecto\obj\Debug\net7.0-windows\hospital Proyecto.AssemblyInfoInputs.cache
+C:\Users\Lenovo\Desktop\Proyecto nuevo 009\hospital Proyecto\obj\Debug\net7.0-windows\hospital Proyecto.AssemblyInfo.cs
+C:\Users\Lenovo\Desktop\Proyecto nuevo 009\hospital Proyecto\obj\Debug\net7.0-windows\hospital Proyecto.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\Proyecto nuevo 009\hospital Proyecto\bin\Debug\net7.0-windows\hospital Proyecto.exe
+C:\Users\Lenovo\Desktop\Proyecto nuevo 009\hospital Proyecto\bin\Debug\net7.0-windows\hospital Proyecto.deps.json
+C:\Users\Lenovo\Desktop\Proyecto nuevo 009\hospital Proyecto\bin\Debug\net7.0-windows\hospital Proyecto.runtimeconfig.json
+C:\Users\Lenovo\Desktop\Proyecto nuevo 009\hospital Proyecto\bin\Debug\net7.0-windows\hospital Proyecto.dll
+C:\Users\Lenovo\Desktop\Proyecto nuevo 009\hospital Proyecto\bin\Debug\net7.0-windows\hospital Proyecto.pdb
+C:\Users\Lenovo\Desktop\Proyecto nuevo 009\hospital Proyecto\obj\Debug\net7.0-windows\hospital Proyecto.dll
+C:\Users\Lenovo\Desktop\Proyecto nuevo 009\hospital Proyecto\obj\Debug\net7.0-windows\refint\hospital Proyecto.dll
+C:\Users\Lenovo\Desktop\Proyecto nuevo 009\hospital Proyecto\obj\Debug\net7.0-windows\hospital Proyecto.pdb
+C:\Users\Lenovo\Desktop\Proyecto nuevo 009\hospital Proyecto\obj\Debug\net7.0-windows\hospital Proyecto.genruntimeconfig.cache
+C:\Users\Lenovo\Desktop\Proyecto nuevo 009\hospital Proyecto\obj\Debug\net7.0-windows\ref\hospital Proyecto.dll
+C:\Users\Lenovo\Desktop\Proyecto nuevo 009\hospital Proyecto\obj\Debug\net7.0-windows\hospital_Proyecto.Properties.Resources.resources
